@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.c1 {
+    position : relative;
+    top: 50px;
+    left: 50px;
+    background : skyblue;
+    width : 200px;
+    height : 160px;  
+    border-radius: 30px;               <!--Rounded corner_CSS3-->
+}
+
+div.c2 {
+    position : absolute;               <!-- SETTING c2 class element relative to c1 parent USING ABSOLUTE-->
+    background : skyblue;  
+    left: -40px;
+    top: 30px;
+    border: 20px solid;
+    border-color: #fff transparent #fff #fff; 	<!-- FADING THE BORDER COLOR USING TRANSPARENT AND #fff VALUE TO GET THE REQUIRED SHAPE-->
+}
+</style>
+</head>
+<body>
+	<div class="c1">
+ 		<div class="c2">
+		</div>
+	</div>
+
+</body>
+</html>
